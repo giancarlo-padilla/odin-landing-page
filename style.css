@@ -1,0 +1,178 @@
+body {
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 64px;
+    color: white;
+    background-color: #1f2937;
+}
+
+header .logo {
+    font-size: 12px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    gap: 32px;
+    color: white;
+    background-color: #1f2937;
+}
+
+.hero-left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+    gap: 8px;
+}
+
+.hero-left h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-left p,
+header ul {
+    font-size: 18px;
+    font-weight: 300;
+    color: #E5E7EB;
+}
+
+button {
+    width: 100px;
+    padding: 6px 8px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    background-color: #3882F6;
+    font-weight: 600;
+}
+
+.card-section {
+    padding: 80px 0 120px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+.card-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 64px;
+}
+
+.card {
+    color: rgb(112, 112, 112);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+    flex: 0 1 150px;
+
+}
+
+.card-title {
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.card img {
+    border: 4px solid #3882F6;
+    border-radius: 16px;
+}
+
+.inspiration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 96px 0;
+    background-color: #E5E7EB;
+    gap: 16px;
+
+}
+
+.inspiration p {
+    width: 800px;
+}
+
+.inspiration .author {
+    text-align: end;
+    font-size: 20px;
+    padding-right: 48px;
+}
+
+.inspiration .quote {
+    font-size: 32px;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 96px;
+}
+
+.floating-cta {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    padding: 40px 100px;
+    min-width: 500px;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+    flex: 1;
+}
+
+.floating-cta button {
+    border: 2px solid white;
+    width: 100px;
+    padding: 2px;
+    justify-content: center;
+    
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    color: white;
+    background-color: #1f2937;
+}
